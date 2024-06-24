@@ -19,6 +19,7 @@ public class MyLogAspect {
 	private void publicMethod() {
 		// Pointcut 설정을 위한 가명 메소드.
 		// private void 이어야 하며, 메소드의 몸체가 없어야 한다.
+		// .. : core에 있거나 하위에 존재하는 폴더죽에서 Service의 모든 메소드이고 괄호속의 인자가 있건 없건
 	}
 	
 	// 메소드 호출 전
